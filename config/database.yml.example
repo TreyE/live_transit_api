@@ -2,14 +2,14 @@ development:
   adapter: 'postgresql'
   host: 'rideonrealtime.net'
   port: 5432
-  database: 'ride_on_api_prod_20130501'
-  username: 'postgres'
-  password: 'Kermit31'
+  database: 'your_db_here'
+  username: 'your_username'
+  password: 'your_pw'
 
 production:
   adapter: 'postgresql'
   host: 'rideonrealtime.net'
   port: 5432
-  database: 'ride_on_api_prod_20130501'
-  username: 'postgres'
-  password: 'Kermit31'
+  database: 'your_db_here'
+  username: 'your_username'
+  password: 'your_pw'
