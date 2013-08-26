@@ -8,7 +8,6 @@ Gemfile.lock
 config/couchdb.yml
 config/database.yml
 public/assets
-config/deploy.rb
 profile/*.txt
 profile/*.csv
 profile/*.dat
