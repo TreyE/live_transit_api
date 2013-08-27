@@ -8,7 +8,7 @@ class StopTimeEvent < ActiveRecord::Base
   delegate :block_id, :to => :stop_time
 
   scope :for_stop_and_arrival_time, lambda { |s_id, t_val|
-    where("stop_times.stop_sequence <> trip.last_stop_sequence and stop_id = ? and stop_time_events.arrival_time > ?", s_id, t_val).
+    where("stop_times.stop_sequence <> trips.last_stop_sequence and stop_times.stop_id = ? and stop_time_events.arrival_time > ?", s_id, t_val).
       order("stop_time_events.arrival_time").
       joins(:stop, {:stop_time => [:stop, { :trip => :route }]})
   }

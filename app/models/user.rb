@@ -11,6 +11,10 @@ class User < CouchRest::Model::Base
 
   before_create :generate_auth_token
 
+  def name
+    email
+  end
+
   def generate_auth_token
     auth_token = SecureRandom.base64(40).tr('+/=lIO0', 'pqrsxyz')
     tokens = User.by_authentication_token(:include_docs => true).map(&:authentication_token)
