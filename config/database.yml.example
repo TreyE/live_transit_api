@@ -5,6 +5,9 @@ development:
   database: 'your_db_here'
   username: 'your_username'
   password: 'your_pw'
+  pool: 5
+  encoding: utf8
+  client_encoding: utf8
 
 production:
   adapter: 'postgresql'
@@ -13,3 +16,6 @@ production:
   database: 'your_db_here'
   username: 'your_username'
   password: 'your_pw'
+  pool: 5
+  encoding: utf8
+  client_encoding: utf8

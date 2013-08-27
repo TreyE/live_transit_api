@@ -4,7 +4,7 @@ require File.expand_path('../boot', __FILE__)
 require "rails/all"
 
 # Support PostGIS
-require 'active_record/connection_adapters/postgis_adapter/railtie'
+# require 'active_record/connection_adapters/postgis_adapter/railtie'
 
 =begin
 require "active_record/railtie"
