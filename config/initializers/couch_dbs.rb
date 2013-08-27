@@ -34,7 +34,7 @@ begin
       CouchDatabases[env.to_sym] = server.database!([db_prefix, database, db_suffix].join(" ").strip.gsub(/\s+/, "_"))
     end
   end
-rescue
-
-  raise "There was a problem with your config/couchdb.yml file. Check and make sure it's present and the syntax is correct."
+#rescue
+#
+#  raise "There was a problem with your config/couchdb.yml file. Check and make sure it's present and the syntax is correct."
 end
