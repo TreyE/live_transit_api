@@ -1,4 +1,4 @@
-class Gtfs::TripUpdateFeed
+class ::Gtfs::TripUpdateFeed
   attr_reader :trip_updates
 
   def self.fetch

@@ -1,4 +1,4 @@
-class Gtfs::RealtimeFeed
+class ::Gtfs::RealtimeFeed
   attr_reader :trip_updates
   attr_reader :vehicle_positions
 

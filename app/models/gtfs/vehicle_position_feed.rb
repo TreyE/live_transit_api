@@ -1,4 +1,4 @@
-class Gtfs::VehiclePositionFeed
+class ::Gtfs::VehiclePositionFeed
   attr_reader :vehicle_positions
 
   def self.fetch

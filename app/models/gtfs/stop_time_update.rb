@@ -1,4 +1,4 @@
-class Gtfs::StopTimeUpdate
+class ::Gtfs::StopTimeUpdate
   attr_reader :stop_sequence
   attr_reader :arrival_delay
   attr_reader :trip_id

@@ -1,4 +1,4 @@
-class Gtfs::TripUpdate
+class ::Gtfs::TripUpdate
   attr_reader :trip_id
   attr_reader :stop_time_updates
   attr_reader :timestamp
