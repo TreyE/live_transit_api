@@ -40,7 +40,6 @@ group :assets do
   
   # twitter bootstrap with 'less' support
   gem "therubyracer"
-  gem 'libv8', '3.11.8.0'
   gem "less-rails", ">= 2.3.2"
   gem "twitter-bootstrap-rails"
   gem 'turbo-sprockets-rails3'
