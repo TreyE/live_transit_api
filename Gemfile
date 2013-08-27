@@ -14,7 +14,7 @@ gem 'multi_json', '1.0.4'
 
 gem 'orm_adapter'
 gem 'mezza-rubyzip', '0.9.4.1'
-gem 'haml', '3.1.3'
+gem 'haml'
 gem 'dalli'
 gem 'ruby-protocol-buffers'
 gem 'foreigner', '1.2.1'
